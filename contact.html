@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <nav>
+            <a  href="homePage.html">Homepage</a>
+            <a href="about.html"> About Me</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; height: 100vh;
+        margin: 0;">
+        <form action="./response.html" method="post">
+            <label for="name" >Name</label>
+            <input type="text" required>
+
+            <label for="email">Email</label>
+            <input type="email" required>
+
+            <label for="message">Send me a Message</label>
+            <textarea rows="6" name="massage"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
